@@ -1,0 +1,15 @@
+{
+  "name": "my-serverless-api",
+  "version": "1.0.0",
+  "description": "Serverless API hosted on Netlify",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "netlify-cli": "^15.0.0"
+  }
+}
